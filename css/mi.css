@@ -1,0 +1,155 @@
+.topad {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.ad {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* 黑色导航栏start */
+.black-nav {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+    font-size: 12px;
+}
+
+.black-nav .wrap {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.black-nav .wrap .black-nav-left {
+    float: right;
+}
+
+.black-nav .wrap .black-nav-left {
+    float: left;
+}
+
+.black-nav .wrap li {
+    float: left;
+    position: relative;
+}
+
+.black-nav .wrap li a {
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.black-nav .wrap li a:hover {
+    color: #fff;
+}
+
+.black-nav .wrap .tap:hover {
+    color: orange;
+}
+
+.black-nav .wrap li span {
+    color: #605959;
+    margin: 0 3.6px;
+}
+
+.black-nav .wrap .black-nav-right {
+    float: right;
+}
+
+/*下载app start*/
+.download {
+    width: 124px;
+    height: 0px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px #aaa;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -62px;
+    overflow: hidden;
+}
+
+.download img {
+    width: 90px;
+    margin: 18px auto 0;
+}
+
+.download p {
+    color: #333;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.black-nav-left li:hover>.download {
+    height: 148px;
+}
+
+.stri {
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -8px;
+    display: none;
+}
+
+.black-nav-left>li:hover>.stri {
+    display: block;
+}
+
+/*下载app end*/
+.cart {
+    width: 120px;
+    height: 40px;
+    margin-left: 25px;
+    background-color: #424242;
+    font-style: normal;
+}
+
+.cart:hover {
+    background: #fff;
+}
+
+.cart:hover>a {
+    color: #ff6700;
+}
+
+.cart-list {
+    height: 100px;
+    width: 280px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    box-shadow: 0 1px 7px #aaa;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.1s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-style: normal;
+}
+
+.cart:hover .cart-list {
+    visibility: visible;
+    opacity: 1;
+}
+
+.cart:hover .cart-list {
+    visibility: visible;
+    opacity: 1;
+    /* 当悬停时显示并设置透明度为1 */
+}
+
+/* 黑色导航栏end */
